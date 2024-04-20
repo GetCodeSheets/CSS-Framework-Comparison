@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind CSS Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="font-sans bg-gray-100">
+
+  <header class="bg-gray-900 text-white text-center py-4">
+    <h1 class="text-3xl">Tailwind CSS Landing Page</h1>
+  </header>
+  
+  <section class="bg-gray-200 py-12">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl mb-4">Welcome to Our Startup</h2>
+      <p class="text-lg mb-6">We provide innovative solutions for your business needs.</p>
+      <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full">Learn More</a>
+    </div>
+  </section>
+
+  <section class="container mx-auto py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-4">Feature 1</h3>
+        <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-4">Feature 2</h3>
+        <p class="text-gray-700">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-xl font-semibold mb-4">Feature 3</h3>
+        <p class="text-gray-700">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2022 Tailwind CSS Landing Page. All rights reserved.</p>
+  </footer>
+</body>
+</html>
